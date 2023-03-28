@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        /* 全局 */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .website{
+            color: salmon;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        /* 头部 */
+        header{
+            width: 100%;
+            height: 200px;
+            background: lightgoldenrodyellow;
+        }
+
+        img{
+            width: 300px;
+            height: 200px;
+            margin-left: 30px;
+            float: left;
+        }
+        nav {
+            float: left;
+            margin-left: 30px;
+            color: salmon;
+        }
+        nav > h1 {
+            margin-top: 10px;
+            font-size: 36px;
+            font-weight: 200;
+        }
+        nav > h2,h4 {
+            margin-top: 15px;
+        }
+        /* 正文 */
+        section{
+            width: 100%;
+            height: 800px;
+            background: #eae6e666;
+            position: relative;
+        }
+        /* 侧边 */
+        .sideBar{
+            width: 300px;
+            height: 100%;
+            background: #9adab599;
+            margin-left: 30px;
+        }
+        .sideBar > .personalInfo,.awards{
+            padding-left: 20px;
+        }
+        .sideBar > .selfEva{
+            padding: 0 5px;
+        }
+
+        .sideBar > div > h3{
+            color: brown;
+            font-weight: 500;
+            margin: 15px;
+        }
+        .personalInfo{
+            padding: 5px;
+        }
+        .personalInfo > ul > li{
+            margin-top: 8px;
+        }
+        .awards > ul > li{
+            margin-top: 8px;
+        }
+        /*主要内容*/
+        .content{
+            position: absolute;
+            top: 0;
+            left: 330px;
+        }
+        .content > div{
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+        .content > div > h3{
+            margin-top: 20px;
+            margin-bottom: 15px;
+            color: brown;
+            font-weight: 500;
+        }
+        .education > div{
+            margin-bottom: 10px;
+        }
+        .education .para{
+            font-size: 18px;
+            font-family: monospace;
+        }
+        .education .para > i,span{
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        .jobExp > div > p,ol{
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-family: monospace;
+        }
+        .jobExp > div > ol{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+<!-- Header -->
+<header>
+    <img src="D:\PSPR混剪\project\image\001.jpg" height="200px" width="200px" >
+    <nav>
+        <h1>张鹤文 Hewen Zhang</h1>
+        <h2>很“正式”的个人介绍</h2>
+        <h4>看起来应该是个正常人<strong></strong><br> E-mail：zhw1504534437@163.com<br>你也可以叫我：花花画海海Sun</h4>
+    </nav>
+    </div>
+</header>
+
+<!-- Content -->
+<section>
+    <!-- SideBar -->
+    <div class="sideBar">
+        <div class="personalInfo">
+            <h3>个人信息</h3>
+            <ul>
+                <li>民族： 汉族</li>
+                <li>政治面貌： 共青团员</li>
+                <li>籍贯： 黑龙江 绥化 庆安</li>
+                <li>工作单位：南开大学 新闻与传播学院</li>
+                <li>原神UID：258145914</li>
+                <li>QQ：1504534437</li>
+                <li>微博：@清羽Eagle</li>
+                <li>职务：新传一班班长 新传团委组织部部长</li>
+
+            </ul>
+        </div>
+        <div class="selfEva">
+            <h3>个人介绍</h3>
+            <p>
+            </p>
+        </div>
+        <div class="awards">
+            <h3>教育背景</h3>
+            <ul>
+                <li>黑河市实验小学（2009.9-2013.5）</li>
+                <li>哈尔滨市 红岩小学（2013.5-2014.7）</li>
+                <li>哈尔滨市 第四十七中学（2014.9-2018.6）</li>
+                <li>哈尔滨市 第九中学（2018.9-2021.6）</li>
+                <li>天津市 南开大学（2021.9至今）
+
+                </li>
+            </ul>
+        </div>
+        <div class="skill"></div>
+    </div>
+    <!-- MainContents -->
+    <div class="content">
+        <div class="education">
+            <h3>一些“趣事”或不算什么的“成就”</h3>
+            <div>
+                <p class="para">古琴 六级 <span>（很懒，懒到连续三次考级全因为不想集训而没报名）</p>
+            </div>
+            <div>
+                <p class="para">王者荣耀<i>QQ区</i><span>单赛季单排三个号达到最强王者段位</span></p>
+                <p class="para">羽毛球最快被别人薄纱   <span>曾经连续三场被11-0（没错，也就半个多月小时的时间）</span></p>
+                <p class="para subject">英雄联盟手游LOLM 段位：钻石I（真的很菜）</p>
+                <p class="para subjects">英雄联盟职业联赛（LPL）六年观赛经验 主队：TES（TOP ESPORTS）</p>
+                <a href="https://lpl.qq.com/es/team_detail.shtml?tid=42">这里是传送门：滔搏电子竞技俱乐部</a><br>
+                <p class="para subject">微博绝对不知名“大V”，就53个粉丝但也是橙V，三个超话等级达到十二级</p>
+                <p class="para subject"></p>
+
+            </div>
+        </div>
+        <div class="jobExp">
+            <h3>兴趣爱好</h3>
+            <div>
+                <div>
+                    <p>唱歌（高音飚不上去，低音下不太来）</p>
+                    <progress value="70" max="100"></progress>
+                    <p>游戏（样样稀松，纯图一乐）</p>
+                    <progress value="60" max="100"></progress>
+                    <p>古代文学（已经出现退化趋势了）</p>
+                    <progress value="50" max="100"></progress>
+                    <p>摄影（半道出家，全靠自学）</p>
+                    <progress value="90" max="100"></progress>
+                    <p>KPOP（哥们十三岁就开始听信不信由你，虽然被专业的薄纱成渣渣）</p>
+                    <progress value="30" max="100"></progress>
+
+                </p>
+            </div>
+        </div>
+            <br>
+        <div class="skill">
+            <h3>一些喜欢的图片和摄影作品展示 </h3>
+            <marquee align="left"bgcolor="" direction="从左至右"  >
+            <img src="image/1c8bcde3531415d2e6e971d2de01ab4.jpg" height="200px" width="200px" >
+            <img src="image/3e15add9a1098948a8aa491e04e31d8.jpg" height="200px" width="200px" >
+            <img src="image/6c7d50bf2132cf19be9d42e5a6873a5.jpg" height="200px" width="200px" >
+            <img src="image/49d552c1b146cc9dee4afd2b4cb5653.jpg" height="200px" width="200px" >
+            <img src="image/54b5109577f45dec93a6c17dcbe2c18.jpg" height="200px" width="200px" >
+            <img src="image/91fc5d21dff2a517faef4bb060b0803.jpg" height="200px" width="200px" >
+            <img src="image/82333064c9b300227bf933cf82e2bbd.jpg" height="200px" width="200px" >
+            <img src="image/a0894bfd3349ca623ae04a1abed629d.jpg" height="200px" width="200px" >
+            <img src="image/b52f5792de2506eeaef16c81faf7d3c.jpg" height="200px" width="200px" >
+            <img src="image/c696ad21a16c58a191df4bacae78268.jpg" height="200px" width="200px" >
+            <img src="image/dc1c5fc2b823ee6d588a1e23c40c895.jpg" height="200px" width="200px" >
+            <img src="image/e10556d913e192cae63eef1aa5ac6d0.jpg" height="200px" width="200px" >
+            </div>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
